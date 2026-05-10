@@ -39,14 +39,6 @@ Production FastAPI backend monitoring GPU prices across Newegg, Walmart, Amazon 
 
 <br/>
 
-## 🛠️ Tech Stack
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,postgres,sqlite,docker,git,github,javascript,html,css,cpp,kotlin" />
-</div>
-
-<br/>
-
 ## 📊 GitHub Stats
 
 <div align="center">
