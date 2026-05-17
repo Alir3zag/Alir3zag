@@ -114,25 +114,8 @@ Tools       Git · pytest · Poetry · Pydantic
 
 ---
 
-## Stats
+## Stack
 
 <div align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alir3zag&layout=compact&theme=tokyonight&hide_border=true&langs_count=6"
-    height="140"
-  />
-</div>
-
-<br/>
-
----
-
-<div align="center">
-  <sub>
-    Seeking a Pflichtpraktikum in backend or software engineering · Bremen, Germany
-    &nbsp;·&nbsp;
-    <a href="https://linkedin.com/in/alir3zag">LinkedIn</a>
-    &nbsp;·&nbsp;
-    <a href="mailto:a.reza.eftekhar@gmail.com">Email</a>
-  </sub>
+  <img src="https://skillicons.dev/icons?i=python,fastapi,postgresql,docker,githubactions,git&theme=dark" />
 </div>
