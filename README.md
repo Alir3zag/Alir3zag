@@ -12,16 +12,24 @@ Building practical software with real-world engineering principles.
   <a href="https://pypi.org/project/gh-analyzer">
     <img src="https://img.shields.io/badge/PyPI-gh--analyzer-3775A9?style=flat-square&logo=pypi&logoColor=white" />
   </a>
+  <a href="https://clearledger-eta.vercel.app">
+    <img src="https://img.shields.io/badge/ClearLedger-live-6366f1?style=flat-square" />
+  </a>
+  <a href="https://plately-brown.vercel.app">
+    <img src="https://img.shields.io/badge/Plately-live-10b981?style=flat-square" />
+  </a>
 </div>
 
 <br/>
 
-Second-year CS student at Constructor University Bremen. I build backend systems and developer tooling in Python — things that are deployed, tested, and actually used.
+Second-year SDT student at Constructor University Bremen. I build backend systems, developer tooling, and full-stack applications — things that are deployed, tested, and actually used.
 
+- 💶 ClearLedger — full-stack finance tracker, live on Vercel + Render
+- 🍽️ Plately — AI-powered meal planner, live on Vercel + Render
 - 📦 `pip install gh-analyzer` — published on PyPI
 - 🚂 GPU Price Tracker — running in production on Railway
-- 🧪 61 unit tests, CI/CD across Python 3.11 / 3.12 / 3.13
-- 📍 Bremen, Germany · seeking Pflichtpraktikum 2025/26
+- 🧪 44 + 61 tests across projects, CI/CD on GitHub Actions
+- 📍 Bremen, Germany · seeking Pflichtpraktikum
 
 <br/>
 
@@ -30,6 +38,44 @@ Second-year CS student at Constructor University Bremen. I build backend systems
 ## Projects
 
 <table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>
+        <a href="https://github.com/Alir3zag/clearledger">ClearLedger</a>
+        &nbsp;
+        <img src="https://img.shields.io/badge/live-Vercel-black?style=flat-square&logo=vercel" />
+      </h3>
+      <p>
+        Full-stack personal finance tracker. FastAPI + PostgreSQL + React.
+        6 analytical SQL endpoints using window functions (RANK, LAG), CTEs,
+        partial indexes, soft deletes. 44 pytest tests. 5 chart types with Recharts.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi" />
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/tests-44-brightgreen?style=flat-square" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>
+        <a href="https://github.com/Alir3zag/meal-planner-project-se">Plately</a>
+        &nbsp;
+        <img src="https://img.shields.io/badge/live-Vercel-black?style=flat-square&logo=vercel" />
+      </h3>
+      <p>
+        Smart meal planner with AI recipe import from YouTube. Multi-stage
+        GPT-4o-mini pipeline with confidence scoring and trust validation.
+        React + TypeScript + Node.js + PostgreSQL.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+      </p>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>
@@ -66,34 +112,6 @@ Second-year CS student at Constructor University Bremen. I build backend systems
       </p>
     </td>
   </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>
-        <a href="https://github.com/Alir3zag/neetcode-75">NeetCode 75</a>
-        &nbsp;
-        <img src="https://img.shields.io/badge/progress-5%2F75-blue?style=flat-square" />
-      </h3>
-      <p>
-        Solving NeetCode 75 DSA problems in Python at my own pace.
-        Multiple approaches per problem, full test suite per solution.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/language-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>GPU Tracker Dashboard &nbsp; <em>in progress</em></h3>
-      <p>
-        React + Tailwind frontend for the GPU Price Tracker.
-        Live price table, price history charts via Recharts,
-        deal alert feed, Vercel deployment.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/status-building-yellow?style=flat-square" />
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-      </p>
-    </td>
-  </tr>
 </table>
 
 <br/>
@@ -103,19 +121,17 @@ Second-year CS student at Constructor University Bremen. I build backend systems
 ## Stack
 
 ```
-Languages   Python · SQL
-Frameworks  FastAPI · SQLAlchemy · AsyncIO
+Languages   Python · JavaScript · TypeScript · SQL
+Frameworks  FastAPI · React · Node.js · Express · SQLAlchemy
 Databases   PostgreSQL · SQLite
-Infra       Railway · Docker · GitHub Actions
-Tools       Git · pytest · Poetry · Pydantic
+Infra       Render · Vercel · Railway · Docker · GitHub Actions
+Tools       Git · pytest · Alembic · Pydantic · Recharts · Prisma
 ```
 
 <br/>
 
 ---
 
-## Stack
-
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,postgresql,docker,githubactions,git&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,fastapi,postgresql,react,ts,nodejs,docker,githubactions,git&theme=dark" />
 </div>
